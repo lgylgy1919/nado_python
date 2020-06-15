@@ -13,5 +13,14 @@ for i in range(n):
     lists.append(a)
 
 assign = []
+a = 0
+# 끝나는 순서가 빠른 순서대로 재정렬
 lists.sort(key=lambda x:x[1])
+# 할당리스트에 분배
 assign.append(lists[0])
+for i in range(1,n):
+    if lists[i][0] >= assign[a][1]:
+        assign.append(lists[i])
+        a+=1
+        
+print(len(assign))

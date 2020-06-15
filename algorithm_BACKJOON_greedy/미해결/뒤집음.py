@@ -11,3 +11,8 @@ while True:
         break
     else:
         p+=1
+
+'''
+조건1) n = 9의배수
+조건2) 
+'''
