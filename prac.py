@@ -1,9 +1,20 @@
-h, m = map(int, input().split(" "))
-if m >= 45:
-    print(h, m - 45)
-elif m < 45:
-    if h == 0:
-        print(23, m + 15)
-    else:
-        print(h - 1, m + 15)
+"""
+input = sys.stdin.readline
+int(sys.stdin.readline())
+sys.stdin.readline().split() 
+문자열 " rstrip()
+"""
+"""
+n = int(input())
+for i in range(n):
+    a, b = map(int, input().split(" "))
+    print("Case #%d: %d + %d = %d" % (i + 1, a, b, a + b))
 
+    # m = i + 1
+    # sum = a + b
+    # print("Case #{m}: {sum}".format(**locals()))
+
+    # print("Case #%s: %s" % (i + 1, a + b))
+    # print('Case #{0}: {1}'.format(i+1,A+B))
+    # print("Case #%d: %d" %(i+1, a+b))
+"""
